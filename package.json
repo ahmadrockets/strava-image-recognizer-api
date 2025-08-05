@@ -1,0 +1,29 @@
+{
+  "name": "strava-image-recognizer-api",
+  "version": "1.0.0",
+  "description": "Strava Image Recognizer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadrockets/strava-image-recognizer-api.git"
+  },
+  "keywords": [
+    "Strava",
+    "Recognizer"
+  ],
+  "author": "Ahmad Fahrudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadrockets/strava-image-recognizer-api/issues"
+  },
+  "homepage": "https://github.com/ahmadrockets/strava-image-recognizer-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "tesseract.js": "^6.0.1"
+  }
+}
